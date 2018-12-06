@@ -5,17 +5,11 @@ Create hardware configuration
 
 Для работы необходимо установить db инетрефейс и драйвер sqlite
 
-<code>
-$ perl -MCPAN -e shell
-</code>
+<code>$ perl -MCPAN -e shell</code>
 
-<code>
-cpan> install DBI
-</code>
+<code>cpan> install DBI</code>
 
-<code>
-cpan> install DBD::SQLite
-</code>
+<code>cpan> install DBD::SQLite</code>
 
 В каталоге лежит база данных для демонстрации работы скрипта
 
