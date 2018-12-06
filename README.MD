@@ -7,7 +7,11 @@ Create hardware configuration
 
 <code>
 $ perl -MCPAN -e shell
+</code>
+<code>
 cpan> install DBI
+</code>
+<code>
 cpan> install DBD::SQLite
 </code>
 
