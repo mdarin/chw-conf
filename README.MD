@@ -7,13 +7,17 @@ Create hardware configuration
 
 <code>
 $ perl -MCPAN -e shell
+</code>
 
+<code>
 cpan> install DBI
+</code>
 
+<code>
 cpan> install DBD::SQLite
 </code>
 
-В каталоге лежит базаданных для демонтрации работы
+В каталоге лежит база данных для демонстрации работы скрипта
 
 Запустить скрипт
 
