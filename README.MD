@@ -4,20 +4,18 @@ Create hardware configuration
 Скрипт выгружает данные из БД системы тестого контроля и составляет структуру каталогов и файлов конфигурации аппаратуры комплекса тренажеров.
 
 Для работы необходимо установить db инетрефейс и драйвер sqlite
-
-<code>$ perl -MCPAN -e shell</code>
-
-<code>cpan> install DBI</code>
-
-<code>cpan> install DBD::SQLite</code>
-
+```bash
+$ perl -MCPAN -e shell
+cpan> install DBI
+cpan> install DBD::SQLite
+```
 В каталоге лежит база данных для демонстрации работы скрипта
 
 Запустить скрипт
 
-<code>
+```bash
 ./chw-conf.pl
-</code>
+```
 
 В результате должна появилтся структура каталогов и заполненных файлов в них
 
